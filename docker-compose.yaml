@@ -1,0 +1,9 @@
+version: '3'
+services:
+  op:
+     build: ./
+     volumes:
+     - "./nginx.conf:/usr/local/openresty/nginx/conf/nginx.conf"
+     - "./lua_code/:/opt/lua/"
+     ports:
+     - "80:80"

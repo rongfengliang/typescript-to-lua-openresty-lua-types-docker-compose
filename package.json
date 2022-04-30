@@ -1,0 +1,15 @@
+{
+  "name": "op-nginx-lua",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf lua_code && tstl",
+    "dev": "tstl --watch"
+  },
+  "devDependencies": {
+    "openresty-lua-types": "^1.0.4",
+    "typescript": "^4.6.4",
+    "typescript-to-lua": "^1.4.3"
+  }
+}

@@ -1,0 +1,20 @@
+{
+   "include": [
+     "src/*/*"
+    ],
+   "compilerOptions": {
+     "outDir": "./lua_code",
+     "target":"ESNext",
+     "types": ["openresty-lua-types"],
+     "lib": ["esnext","DOM"],
+     "moduleResolution": "node",
+     "allowSyntheticDefaultImports": true,
+     "strict": true
+   },
+   "tstl": {
+     "noHeader": true,  // 去掉头
+     "noImplicitSelf":true, // 禁用self 
+     "buildMode": "library",
+     "luaTarget": "JIT"
+   }
+ }
