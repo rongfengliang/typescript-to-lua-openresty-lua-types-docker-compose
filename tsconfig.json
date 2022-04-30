@@ -4,16 +4,20 @@
     ],
    "compilerOptions": {
      "outDir": "./lua_code",
-     "target":"ESNext",
      "types": ["openresty-lua-types"],
      "lib": ["esnext","DOM"],
+     "module":"commonjs",
+     "target": "esnext",
+     "skipLibCheck": true,                                /* Skip type checking all .d.ts files. */
+     "esModuleInterop": true,
      "moduleResolution": "node",
+     "forceConsistentCasingInFileNames": true,   
      "allowSyntheticDefaultImports": true,
      "strict": true
    },
    "tstl": {
-     "noHeader": true,  // 去掉头
-     "noImplicitSelf":true, // 禁用self 
+     "noHeader": true,  
+     "noImplicitSelf":true, 
      "buildMode": "library",
      "luaTarget": "JIT"
    }
