@@ -4,7 +4,7 @@
     ],
    "compilerOptions": {
      "outDir": "./lua_code",
-     "types": ["openresty-lua-types"],
+     "types": ["openresty-lua-types","lua-types/jit"],
      "lib": ["esnext","DOM"],
      "module":"commonjs",
      "target": "esnext",
@@ -19,6 +19,7 @@
      "noHeader": true,  
      "noImplicitSelf":true, 
      "buildMode": "library",
-     "luaTarget": "JIT"
+     "luaTarget": "JIT",
+     "noResolvePaths":["hashids","resty.ipmatcher"]
    }
  }
