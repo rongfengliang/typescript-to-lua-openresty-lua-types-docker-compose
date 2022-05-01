@@ -1,7 +1,7 @@
 declare module  "resty.ipmatcher" {
     interface IpMatcher {
-        match(hashid:string|any):LuaMultiReturn<[true|false|Record<string,string>, string]>;
-        match_bin(hashid:any):LuaMultiReturn<[true|false|Record<string,string>, string]>;
+        match(ip:string|any):LuaMultiReturn<[true|false|Record<string,string>, string]>;
+        match_bin(ip:any):LuaMultiReturn<[true|false|Record<string,string>, string]>;
     } 
     interface myIpmatcherConstructor {
         new: (this: void,ips:string[]) =>  LuaMultiReturn<[IpMatcher, string]>;
