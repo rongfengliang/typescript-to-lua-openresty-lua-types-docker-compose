@@ -10,6 +10,7 @@ let ips = {
     }
 }
 
+
 let ipv4 = ipmatch.parse_ipv4("127.0.0.1")
 
 console.log(ipv4)
@@ -22,7 +23,7 @@ if (err2) {
 }
 
 
-let [ok2, errMsg2] = ip2.match("192.168.17.102")
+let [ok2, errMsg2] = ip2.match("192.168.17.107")
 
 if (errMsg2) {
     ngx.say(errMsg2)

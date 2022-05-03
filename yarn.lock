@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@dalongrong/resty.ipmatcher@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.npmmirror.com/@dalongrong/resty.ipmatcher/-/resty.ipmatcher-1.0.1.tgz#7fde5f6909d29e8c7872771df0ef667a238951e0"
+  integrity sha512-dkylh7NKYWGtU1sR7DwSuhu9sAq5hhP4lVxbglCmJPwJ2EL1GdpN9lbbaVWX9xIK+3RC/Hfs4cnvJxxwCEgjMQ==
+  dependencies:
+    lua-types "^2.11.0"
+
 enhanced-resolve@^5.8.2:
   version "5.9.3"
   resolved "https://registry.npmmirror.com/enhanced-resolve/-/enhanced-resolve-5.9.3.tgz#44a342c012cbc473254af5cc6ae20ebd0aae5d88"

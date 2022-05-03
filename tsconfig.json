@@ -4,7 +4,7 @@
     ],
    "compilerOptions": {
      "outDir": "./lua_code",
-     "types": ["openresty-lua-types","lua-types/jit"],
+     "types": ["openresty-lua-types","lua-types/jit","@dalongrong/resty.ipmatcher"],
      "lib": ["esnext","DOM"],
      "module":"commonjs",
      "target": "esnext",
